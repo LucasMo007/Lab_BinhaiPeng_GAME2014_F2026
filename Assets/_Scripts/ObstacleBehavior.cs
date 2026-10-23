@@ -4,6 +4,9 @@ public class ObstacleBehavior : MonoBehaviour
 {
     [SerializeField] private float fallSpeed = 5f;
     [SerializeField] private float bottomBoundary = -10f;
+    [SerializeField] private int pointValue = 10;
+
+    public int PointValue => pointValue;
 
     void Update()
     {
@@ -22,6 +25,7 @@ public class ObstacleBehavior : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             Debug.Log("Player hit obstacle!");
+            GameManager.Instance.LoseLife();
             gameObject.SetActive(false); 
         }
     }

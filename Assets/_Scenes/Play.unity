@@ -1056,7 +1056,6 @@ GameObject:
   - component: {fileID: 1478388850}
   - component: {fileID: 1478388849}
   - component: {fileID: 1478388848}
-  - component: {fileID: 1478388847}
   - component: {fileID: 1478388851}
   m_Layer: 0
   m_Name: Player
@@ -1065,21 +1064,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1478388847
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1478388846}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 257626947039e1841a67933ff157a463, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  smoothSpeed: 15
-  xBounds: {x: -3.5, y: 3.5}
-  yBounds: {x: -7, y: 7}
 --- !u!58 &1478388848
 CircleCollider2D:
   m_ObjectHideFlags: 0
