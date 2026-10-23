@@ -7,10 +7,10 @@ public class ObstacleBehavior : MonoBehaviour
 
     void Update()
     {
-        // 障碍物向下掉落
+        
         transform.Translate(Vector3.down * fallSpeed * Time.deltaTime);
 
-        // 超出底部屏幕后回收到对象池（直接隐藏）
+        
         if (transform.position.y < bottomBoundary)
         {
             gameObject.SetActive(false);
@@ -22,7 +22,7 @@ public class ObstacleBehavior : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             Debug.Log("Player hit obstacle!");
-            gameObject.SetActive(false); // 撞击后回收
+            gameObject.SetActive(false); 
         }
     }
 }
