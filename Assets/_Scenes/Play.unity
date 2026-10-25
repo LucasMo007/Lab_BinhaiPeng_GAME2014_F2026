@@ -570,8 +570,8 @@ MonoBehaviour:
   invincibleTime: 1
   livesText: {fileID: 1522218376}
   scoreText: {fileID: 935120318}
-  hitSound: {fileID: 0}
-  loseSound: {fileID: 0}
+  hitSound: {fileID: 8300000, guid: 6d7e78826082262448c465c3c0a951a0, type: 3}
+  loseSound: {fileID: 8300000, guid: 8ca1d9e57b45d5d4ca661fc9575b19c3, type: 3}
 --- !u!4 &669498438
 Transform:
   m_ObjectHideFlags: 0
@@ -929,8 +929,8 @@ MonoBehaviour:
   poolSize: 10
   spawnInterval: 1.2
   spawnY: 5
-  spawnXMin: -3
-  spawnXMax: 3
+  spawnXMin: -2.2
+  spawnXMax: 2.2
 --- !u!4 &1247285247
 Transform:
   m_ObjectHideFlags: 0
@@ -1373,8 +1373,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1478388846}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -6, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0, y: -3, z: 0}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_Children:
   - {fileID: 1235748904}
   m_Father: {fileID: 0}
